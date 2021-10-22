@@ -9,10 +9,10 @@ The file `./Jenkinsfile-sample` can be used in a Jenkins / Kubernetes environmen
 ## Making a release
 
 ```
-mvn clean install assembly:assembly -DskipTests -Drat.numUnapprovedLicenses=1000
+mvn clean install -DskipTests -Drat.numUnapprovedLicenses=1000
 ```
 
-The parameter `assembly:assembly` generates `.tar.gz` files for the Ranger Admin and all the plugins in the `target` directory:
+This command generates `.tar.gz` files for the Ranger Admin and all the plugins in the `target` directory:
 
 - ranger-2.0.0-1.0-admin.tar.gz
 - ranger-2.0.0-1.0-atlas-plugin.tar.gz
