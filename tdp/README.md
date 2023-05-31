@@ -1,6 +1,6 @@
 # TDP Ranger Notes
 
-The version 1.2.1-SNAPSHOT of Apache Ranger is based on the `ranger-1.2` tag of the Apache [repository](https://github.com/apache/ranger/tree/ranger-1.2).
+The version 2.0.0-1.0 of Apache Ranger is based on the `ranger-2.0` branch [repository](https://github.com/apache/ranger/tree/ranger-2.0).
 
 ## Jenkinfile
 
@@ -14,28 +14,28 @@ mvn clean install -DskipTests -Drat.numUnapprovedLicenses=1000
 
 This command generates `.tar.gz` files for the Ranger Admin and all the plugins in the `target` directory:
 
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-admin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-atlas-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-elasticsearch-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-hbase-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-hdfs-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-hive-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-kafka-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-kms.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-knox-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-kylin-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-migration-util.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-ozone-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-presto-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-ranger-tools.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-solr-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-solr_audit_conf.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-sqoop-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-src.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-storm-plugin.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-tagsync.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-usersync.tar.gz
-- ranger-2.0.1-TDP-0.1.0-SNAPSHOT-yarn-plugin.tar.gz
+- ranger-2.0.0-1.0-admin.tar.gz
+- ranger-2.0.0-1.0-atlas-plugin.tar.gz
+- ranger-2.0.0-1.0-elasticsearch-plugin.tar.gz
+- ranger-2.0.0-1.0-hbase-plugin.tar.gz
+- ranger-2.0.0-1.0-hdfs-plugin.tar.gz
+- ranger-2.0.0-1.0-hive-plugin.tar.gz
+- ranger-2.0.0-1.0-kafka-plugin.tar.gz
+- ranger-2.0.0-1.0-kms.tar.gz
+- ranger-2.0.0-1.0-knox-plugin.tar.gz
+- ranger-2.0.0-1.0-kylin-plugin.tar.gz
+- ranger-2.0.0-1.0-migration-util.tar.gz
+- ranger-2.0.0-1.0-ozone-plugin.tar.gz
+- ranger-2.0.0-1.0-presto-plugin.tar.gz
+- ranger-2.0.0-1.0-ranger-tools.tar.gz
+- ranger-2.0.0-1.0-solr-plugin.tar.gz
+- ranger-2.0.0-1.0-solr_audit_conf.tar.gz
+- ranger-2.0.0-1.0-sqoop-plugin.tar.gz
+- ranger-2.0.0-1.0-src.tar.gz
+- ranger-2.0.0-1.0-storm-plugin.tar.gz
+- ranger-2.0.0-1.0-tagsync.tar.gz
+- ranger-2.0.0-1.0-usersync.tar.gz
+- ranger-2.0.0-1.0-yarn-plugin.tar.gz
 
 ## Testing parameters
 
