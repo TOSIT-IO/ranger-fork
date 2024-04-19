@@ -64,8 +64,8 @@
               <include>org.codehaus.jackson:jackson-jaxrs</include>
               <include>org.codehaus.jackson:jackson-mapper-asl</include>
               <include>org.codehaus.jackson:jackson-xc</include>
-              <include>org.codehaus.woodstox:stax2-api:jar:${codehaus.woodstox.stax2api.version}</include>
-              <include>com.fasterxml.woodstox:woodstox-core:jar:${fasterxml.woodstox.version}</include>
+              <include>org.codehaus.woodstox:stax2-api</include>
+              <include>com.fasterxml.woodstox:woodstox-core</include>
               <include>org.apache.ranger:ranger-plugins-common</include>
               <include>org.apache.ranger:ranger-plugins-audit</include>
               <include>com.kstruct:gethostname4j:jar:${kstruct.gethostname4j.version}</include>

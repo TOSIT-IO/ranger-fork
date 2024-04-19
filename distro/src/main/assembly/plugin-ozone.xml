@@ -63,8 +63,8 @@
                     <include>org.apache.hadoop:hadoop-auth:jar:${hadoop.version}</include>
                     <include>org.apache.hadoop:hadoop-ozone:jar:${ozone.version}</include>
                     <include>org.apache.hadoop:hadoop-hdds:jar:${ozone.version}</include>
-                    <include>com.fasterxml.woodstox:woodstox-core:jar:${fasterxml.woodstox.version}</include>
-                    <include>org.codehaus.woodstox:stax2-api:jar:${codehaus.woodstox.stax2api.version}</include>
+                    <include>com.fasterxml.woodstox:woodstox-core</include>
+                    <include>org.codehaus.woodstox:stax2-api</include>
                     <include>com.sun.jersey:jersey-core</include>
                     <include>com.sun.jersey:jersey-client</include>
                     <include>com.sun.jersey:jersey-bundle</include>
@@ -101,8 +101,8 @@
 		    <include>org.apache.zookeeper:zookeeper-jute:jar:${zookeeper.version}</include>
                     <include>org.noggit:noggit:jar:${noggit.version}</include>
                     <include>org.apache.solr:solr-solrj:jar:${solr.version}</include>
-                    <include>com.fasterxml.woodstox:woodstox-core:jar:${fasterxml.woodstox.version}</include>
-                    <include>org.codehaus.woodstox:stax2-api:jar:${codehaus.woodstox.stax2api.version}</include>
+                    <include>com.fasterxml.woodstox:woodstox-core</include>
+                    <include>org.codehaus.woodstox:stax2-api</include>
                     <include>com.sun.jersey:jersey-core</include>
                     <include>com.sun.jersey:jersey-client</include>
                     <include>com.sun.jersey:jersey-bundle</include>

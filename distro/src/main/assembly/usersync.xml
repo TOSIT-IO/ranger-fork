@@ -51,6 +51,7 @@
 							<include>org.apache.hadoop:hadoop-auth</include>
 							<include>org.slf4j:slf4j-api:jar:${slf4j.version}</include>
 							<include>org.apache.hadoop:hadoop-common</include>
+              <include>org.apache.hadoop.thirdparty:hadoop-shaded-guava</include>
 							<include>org.apache.commons:commons-csv</include>
 							<include>org.apache.ranger:credentialbuilder</include>
 							<include>org.apache.ranger:ranger-util</include>
@@ -63,8 +64,8 @@
 							<include>com.kstruct:gethostname4j:jar:${kstruct.gethostname4j.version}</include>
 							<include>net.java.dev.jna:jna:jar:${jna.version}</include>
 							<include>net.java.dev.jna:jna-platform:jar:${jna-platform.version}</include>
-							<include>com.fasterxml.woodstox:woodstox-core:jar:${fasterxml.woodstox.version}</include>
-							<include>org.codehaus.woodstox:stax2-api:jar:${codehaus.woodstox.stax2api.version}</include>
+							<include>com.fasterxml.woodstox:woodstox-core</include>
+							<include>org.codehaus.woodstox:stax2-api</include>
 							<include>org.apache.commons:commons-configuration2:jar:${commons.configuration.version}</include>
 							<include>org.cloudera.logredactor:logredactor</include>
 							<include>com.fasterxml.jackson.core:jackson-annotations:jar:${fasterxml.jackson.version}</include>
